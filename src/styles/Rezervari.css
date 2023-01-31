@@ -1,0 +1,120 @@
+.rezervari {
+    align-items: center;
+}
+
+.rezervariContainer {
+    width: 100rem;
+    margin-bottom: 6rem;
+    background-color: rgb(255, 127, 0);
+    max-width: 200rem;
+}
+
+.rowRezervari {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 0rem;
+}
+
+.h1Rezervari {
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+    font-style: normal;
+    font-family: 'New Century Schoolbook', 'TeX Gyre Schola', serif;
+}
+
+#formGridName,
+#formGridPrenume,
+#formGridTelefon,
+#formGridEmail,
+#formGriNrPersoane,
+#formGridOra,
+#formGridData,
+#formGridLocatieMasa,
+#formGridCheckbox {
+    background-color: rgb(255, 127, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: white;
+}
+
+#formGridName::placeholder {
+    color: white;
+}
+
+#formGridPrenume::placeholder {
+    color: white;
+}
+
+#formGridTelefon::placeholder {
+    color: white;
+}
+
+#formGridEmail::placeholder {
+    color: white;
+}
+
+#formGriNrPersoane,
+#formGridOra,
+#formGridData,
+#formGridLocatieMasa,
+#formGridCheckbox ::placeholder {
+    color: white;
+}
+.form-control{
+    color: white;
+}    
+
+
+.active,
+#root>div>div:nth-child(2)>div>div>div:nth-child(1)>form>button {
+    border: 3px solid;
+    font-style: inherit, normal;
+    font-weight: bold;
+    background-color: white;
+    color: rgb(255, 127, 0);
+    margin-bottom: 2rem;
+}
+
+#root>div>div:nth-child(2)>div>div>div:nth-child(1)>form>button:hover {
+    color: rgb(255, 127, 0);
+    border-color: rgb(170, 87, 4);
+    font-style: bold;
+}
+
+.form-check-input:checked {
+    background-color: rgb(255, 127, 0);
+    ;
+    border-color: white;
+}
+
+.pAnulareRez {
+    font-size: 0.8em;
+    color: white;
+    margin-top: 0.5rem;
+}
+
+.h2Cerinte {
+    font-weight: bold;
+    margin-top: 0.5rem;
+    color: white;
+}
+
+#formGridCheckbox>div>label {
+    color: white;
+    font-size: 1.2em;
+    margin-bottom: 2rem;
+}
+
+.hrLine {
+    color: white;
+}
+
+.restaurantHall {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-left: 1rem;
+}

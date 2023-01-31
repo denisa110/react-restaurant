@@ -1,0 +1,138 @@
+ .containerAbout {
+     max-width: 2000px;
+     width: 1800px;
+     height: 100%;
+     padding: 0%;
+     display: flex;
+     flex-direction: column;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     margin-bottom: 10rem;
+    }
+
+ .row1About {
+     display: flex;
+     flex-direction: row;
+     margin-bottom: 0rem;
+     background-color: white;
+    }
+
+ .row2About {
+     background-color: rgb(237, 237, 237);
+     width: 100.8%;
+    }
+
+ .col1About {
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     margin: auto;
+     width: 50%;
+     margin-right: 50px;
+     font-style: normal;
+    }
+
+ .h1About {
+     font-weight: bold;
+     font-size: 4rem;
+     color: rgb(255, 127, 0);
+     text-align: left;
+    }
+
+ .h2About {
+     font-weight: bold;
+     font-size: 2.3rem;
+     color: rgb(255, 127, 0);
+     text-align: left;
+    }
+
+.h2Contact{
+    font-weight: bold;
+    font-size: 2.5rem;
+    
+
+}
+
+ .h2AboutRow2 {
+     font-weight: bold;
+     font-size: 2.5rem;
+     color: rgb(255, 127, 0);
+     text-align: justify;
+     margin-right: 5rem
+    }
+
+ .pAbout {
+     width: 500px;
+     font-size: 1.5rem;
+     color: #818589;
+     margin-right: 5rem
+    }
+
+ .col2About {
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     margin: auto;
+     width: 50%;
+     margin-left: 50px;
+     font-style: normal;
+    }
+
+ #imgRestaurant2 {
+     display: flex;
+     flex-direction: column;
+     width: 112%;
+     height: auto;
+     margin-left: -4rem;
+    }
+
+ .imgCookTeam {
+     margin-left: -50px;
+    }
+
+ .col3About {
+     display: flex;
+     flex-direction: column;
+     text-align: justify;
+     margin: auto;
+     width: 50%;
+     margin-left: 50px;
+     font-style: normal;
+    }
+
+    .txtCol3About{
+        margin-left: -4rem;
+    }
+
+    .contactRow{
+        margin-top: 6rem;
+        border-color: black;
+        border-top: 2px;
+    }
+    
+    .contactDetail{
+        display: flex;
+        background-color: rgb(255, 127, 0);
+        width: 100%;
+        height: 32rem;
+        position: relative;
+        justify-content: center;
+    }
+
+    .detail{
+        align-self: center;
+        color: white;
+        letter-spacing:2px;
+    }
+
+    .pA, .h5A, .pT, .h5T, .pE, .h5E{
+        display: inline;
+        line-height: 2cm;
+        font-size: x-large;
+        font-weight: bold;
+    }
+
+   
+   
+   
