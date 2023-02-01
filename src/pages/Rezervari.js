@@ -90,7 +90,7 @@ function Rezervari() {
         </Row>
       </Container>
     </div>
-  )
+  );
 }
 
 export default Rezervari

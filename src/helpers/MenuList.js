@@ -8,15 +8,12 @@ import CiorbaDePui from "../assets/ciorbaDePui.png"
 import CiorbaTaraneasca from "../assets/ciorba-taraneasca.jpg"
 import CiorbaDePeste from "../assets/ciorba-de-peste-1.jpg"
 
-
-
-
-export const MenuList =[
+export const MenuList = [
     {
         name: 'Fructe de mare',
         image: FructeDeMare,
         price: 40.00,
-    }, 
+    },
 
     {
         name: 'Gazpacho',
@@ -43,7 +40,7 @@ export const MenuList =[
     },
 ]
 
-export const MenuListCiorba =[
+export const MenuListCiorba = [
     {
         name: 'Ciorbă de legume',
         image: CiorbaDeLegume,
